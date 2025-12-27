@@ -238,6 +238,9 @@
         <mxCell id="WOmmMFQfxS5Fisnntw31-74" value="BN+ReLU" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="550" y="960" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WOmmMFQfxS5Fisnntw31-75" value="Conv3x3&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="830" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
