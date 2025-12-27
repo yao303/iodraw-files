@@ -105,7 +105,7 @@
         <mxCell id="WOmmMFQfxS5Fisnntw31-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WOmmMFQfxS5Fisnntw31-33" target="WOmmMFQfxS5Fisnntw31-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WOmmMFQfxS5Fisnntw31-33" value="&lt;div&gt;up3: 8 → 16&lt;/div&gt;&lt;div&gt;concat:&amp;nbsp; 768&lt;/div&gt;&lt;div&gt;DoubleConv(768 → 256)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WOmmMFQfxS5Fisnntw31-33" value="&lt;div&gt;up4: 8 → 16&lt;/div&gt;&lt;div&gt;concat:&amp;nbsp; 768&lt;/div&gt;&lt;div&gt;DoubleConv(768 → 256)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="585" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WOmmMFQfxS5Fisnntw31-34" value="[B, 512, 8, 8]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
