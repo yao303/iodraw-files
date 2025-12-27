@@ -236,6 +236,9 @@
         <mxCell id="WOmmMFQfxS5Fisnntw31-73" value="Feed-Forward Network&lt;div&gt;mlp_dim=1024&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="420" y="960" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WOmmMFQfxS5Fisnntw31-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WOmmMFQfxS5Fisnntw31-74" target="WOmmMFQfxS5Fisnntw31-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WOmmMFQfxS5Fisnntw31-74" value="Dropout" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="550" y="960" width="100" height="60" as="geometry" />
         </mxCell>
@@ -264,7 +267,7 @@
           <mxGeometry x="25" y="960" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WOmmMFQfxS5Fisnntw31-86" value="Dropout" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="560" y="970" width="100" height="60" as="geometry" />
+          <mxGeometry x="680" y="960" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
