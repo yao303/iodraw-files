@@ -170,11 +170,17 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-89" value="input:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="150" y="935" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C6mbg1nRUAMpupp2eoNw-90" target="C6mbg1nRUAMpupp2eoNw-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-90" value="Downsample(128)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-91" value="ResBlock&lt;div&gt;(128, 128, time_dim)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-93" value="ResBlock&lt;div&gt;(128, 128, time_dim)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
