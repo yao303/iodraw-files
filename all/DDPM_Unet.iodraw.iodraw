@@ -199,10 +199,13 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-98" value="Upsample" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="505" y="950" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C6mbg1nRUAMpupp2eoNw-99" target="C6mbg1nRUAMpupp2eoNw-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-99" value="input:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="575" y="935" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-100" value="最邻插值&lt;div&gt;Conv(k=3,s=1,p=1)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-100" value="最邻插值&lt;div&gt;Conv(k=3,p=1)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="705" y="935" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
