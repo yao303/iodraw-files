@@ -56,7 +56,7 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-47" value="Upsample(64)&lt;div&gt;ResBlock&lt;/div&gt;&lt;div&gt;(128, 64, time_dim)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-48" value="dec1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-48" value="up-2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="705" y="315" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-50" value="[B, 128, 14, 14]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
