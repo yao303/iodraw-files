@@ -44,7 +44,7 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C6mbg1nRUAMpupp2eoNw-43" target="C6mbg1nRUAMpupp2eoNw-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-43" value="&lt;div&gt;up2: 32 → 64&lt;/div&gt;&lt;div&gt;concat:&amp;nbsp;&amp;nbsp;192&lt;/div&gt;&lt;div&gt;DoubleConv(192 → 64)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-43" value="ResBlock&lt;div&gt;(128 + 128, 64, time_dim)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-44" value="dec2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -216,8 +216,8 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-103" value="[B, 128, 7, 7]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" y="500" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-104" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="495" y="488" width="50" height="30" as="geometry" />
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-104" value="[B, 128, 7, 7]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="500" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
