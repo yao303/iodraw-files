@@ -19,9 +19,6 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-6" value="resnet.conv1&lt;div&gt;（k=7,s=2,p=3,out=64）&lt;/div&gt;&lt;div&gt;bn1加relu&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-7" value="[B, 1, 28, 28]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="225" y="258" width="90" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-8" value="enc1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="105" y="318" width="50" height="30" as="geometry" />
         </mxCell>
@@ -236,7 +233,10 @@
           <mxGeometry x="235" y="98" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-81" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="145" y="218" width="50" height="30" as="geometry" />
+          <mxGeometry x="145" y="240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-82" value="[B, 1, 28, 28]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="108" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
