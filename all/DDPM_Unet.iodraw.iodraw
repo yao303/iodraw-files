@@ -180,8 +180,8 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-57" value="ResBlock" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="70" y="815" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-58" value="in_ch:输入通道数&lt;div&gt;out_ch:输出通道数&lt;/div&gt;&lt;div&gt;time_dim:时间嵌入向量&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="125" y="860" width="150" height="60" as="geometry" />
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-58" value="in_ch:输入通道数&lt;div&gt;out_ch:输出通道数&lt;/div&gt;&lt;div&gt;time_dim:128&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C6mbg1nRUAMpupp2eoNw-59" target="C6mbg1nRUAMpupp2eoNw-61">
           <mxGeometry relative="1" as="geometry" />
