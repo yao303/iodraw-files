@@ -177,8 +177,8 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-57" value="ResBlock" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="70" y="815" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-58" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="145" y="868" width="50" height="30" as="geometry" />
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-58" value="in_ch:输入通道数&lt;div&gt;out_ch:输出通道数&lt;/div&gt;&lt;div&gt;time_dim:输入张量&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="853" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
