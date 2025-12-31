@@ -186,6 +186,9 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-59" value="Conv(k=3,p=1,s=1)&lt;div&gt;GroupNorm(8)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="290" y="800" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-61" value="Conv(k=3,p=1,s=1)&lt;div&gt;GroupNorm(8)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="810" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
