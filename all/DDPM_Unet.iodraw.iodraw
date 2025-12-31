@@ -213,8 +213,8 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-100" value="最邻插值&lt;div&gt;Conv(k=3,p=1)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="705" y="935" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-103" value="(B, 128, 7, 7)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="285" y="488" width="90" height="30" as="geometry" />
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-103" value="[B, 128, 7, 7]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
