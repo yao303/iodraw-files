@@ -16,7 +16,7 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C6mbg1nRUAMpupp2eoNw-6" target="C6mbg1nRUAMpupp2eoNw-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-6" value="resnet.conv1&lt;div&gt;（k=7,s=2,p=3,out=64）&lt;/div&gt;&lt;div&gt;bn1加relu&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-6" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;ResBlock&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-8" value="enc1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -236,7 +236,7 @@
           <mxGeometry x="125" y="240" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-83" value="(B, 128)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="215" y="238" width="70" height="30" as="geometry" />
+          <mxGeometry x="220" y="240" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
