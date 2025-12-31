@@ -124,9 +124,6 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-44" value="dec2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="705" y="408" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-45" value="[B, 64, 64, 64]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="390" y="398" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C6mbg1nRUAMpupp2eoNw-47" target="C6mbg1nRUAMpupp2eoNw-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -236,7 +233,10 @@
           <mxGeometry x="380" y="300" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-86" value="[B, 128, 14, 14]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="458" width="100" height="30" as="geometry" />
+          <mxGeometry x="225" y="460" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-87" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="388" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
