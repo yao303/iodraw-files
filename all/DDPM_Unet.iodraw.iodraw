@@ -171,6 +171,9 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-55" value="Decoder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="605" y="735" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C6mbg1nRUAMpupp2eoNw-56" target="C6mbg1nRUAMpupp2eoNw-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-56" value="input:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="160" y="800" width="100" height="60" as="geometry" />
         </mxCell>
@@ -179,6 +182,9 @@
         </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-58" value="in_ch:输入通道数&lt;div&gt;out_ch:输出通道数&lt;/div&gt;&lt;div&gt;time_dim:输入张量&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-59" value="input:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="800" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
