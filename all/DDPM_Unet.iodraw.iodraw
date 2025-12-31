@@ -31,9 +31,6 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-11" value="resnet.maxpool&lt;div&gt;（k=3,s=2）&lt;/div&gt;&lt;div&gt;resnet.layer1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-12" value="[B, 64, 128, 128]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="215" y="368" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-13" value="enc2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="105" y="415" width="50" height="30" as="geometry" />
         </mxCell>
