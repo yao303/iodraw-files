@@ -173,8 +173,8 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-90" value="Downsample(128)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-91" value="Downsample(128)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-91" value="ResBlock&lt;div&gt;(128, 128, time_dim)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
