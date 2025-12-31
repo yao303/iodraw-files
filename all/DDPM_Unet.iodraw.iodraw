@@ -7,7 +7,7 @@
         <mxCell id="C6mbg1nRUAMpupp2eoNw-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C6mbg1nRUAMpupp2eoNw-2" target="C6mbg1nRUAMpupp2eoNw-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C6mbg1nRUAMpupp2eoNw-2" value="x_t (B, 1, 28, 28)&lt;div&gt;+ t&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-2" value="input" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C6mbg1nRUAMpupp2eoNw-6" target="C6mbg1nRUAMpupp2eoNw-11">
@@ -225,6 +225,9 @@
         </mxCell>
         <mxCell id="C6mbg1nRUAMpupp2eoNw-73" value="TimeEmbedding" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C6mbg1nRUAMpupp2eoNw-75" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="88" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
