@@ -1,9 +1,56 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0" version="24.7.17">
-  <diagram name="第 1 页" id="sLz2PChH8K8USx42w7rB">
+  <diagram name="二原补关键帧_横向流程" id="sLz2PChH8K8USx42w7rB">
     <mxGraphModel dx="1213" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k2f6XHga4IPcr__xxeAt-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-2" value="输入：一原作监图片序列&lt;br&gt;（时间序列）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-3" value="取相邻两帧&lt;br&gt;VLM理解并生成&lt;br&gt;中间关键帧描述" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="200" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-4" value="图像生成模型&lt;br&gt;生成中间关键帧" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="200" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-5" value="将生成帧插入序列&lt;br&gt;形成新的关键帧&lt;br&gt;图片序列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="200" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-6" value="是否还有未补全的相邻间隔？" style="shape=rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="190" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-7" value="输出：补全后的关键帧&lt;br&gt;图片序列（时间序列）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="400" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k2f6XHga4IPcr__xxeAt-1" target="k2f6XHga4IPcr__xxeAt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k2f6XHga4IPcr__xxeAt-2" target="k2f6XHga4IPcr__xxeAt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k2f6XHga4IPcr__xxeAt-3" target="k2f6XHga4IPcr__xxeAt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k2f6XHga4IPcr__xxeAt-4" target="k2f6XHga4IPcr__xxeAt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k2f6XHga4IPcr__xxeAt-5" target="k2f6XHga4IPcr__xxeAt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-13" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="k2f6XHga4IPcr__xxeAt-6" target="k2f6XHga4IPcr__xxeAt-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="120" />
+              <mxPoint x="480" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2f6XHga4IPcr__xxeAt-14" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k2f6XHga4IPcr__xxeAt-6" target="k2f6XHga4IPcr__xxeAt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
