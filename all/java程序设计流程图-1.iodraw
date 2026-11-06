@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0" version="24.7.17">
   <diagram name="二原改进_补关键帧流程" id="3ii8ZT0ttn4QjMsmqoMd">
-    <mxGraphModel dx="2560" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2254" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           <mxGeometry x="40" y="650" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3SlpXEWUC6TwAiNr8nTk-9" value="加入关键帧池" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="650" width="180" height="70" as="geometry" />
+          <mxGeometry x="600" y="655" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3SlpXEWUC6TwAiNr8nTk-10" value="是否继续递归补全？" style="shape=rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="770" width="220" height="80" as="geometry" />
