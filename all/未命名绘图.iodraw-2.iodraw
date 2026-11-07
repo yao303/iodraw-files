@@ -4,65 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="unMQUV8tgInIUgHWds3y-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="30" y="320" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-2" value="输入：一原 / 作监图片&lt;br&gt;放入时间轴并配置&lt;br&gt;提示词、参考图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="295" width="190" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-3" value="前端组装任务&lt;br&gt;clips：imageIndex / 起始帧 / 时长 / 作监标记&lt;br&gt;解析 @图片 与 @时间轴 引用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="285" width="220" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-4" value="逐时间帧合成输入帧&lt;br&gt;按 clip.imageIndex 取上传源图&lt;br&gt;render_frame + 作监标记 / 画面效果&lt;br&gt;不读取上一帧模型生成结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="275" width="240" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-5" value="还有未渲染的&lt;br&gt;时间帧？" style="shape=rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="285" width="190" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-6" value="编码参考视频&lt;br&gt;合成帧序列 → MP4&lt;br&gt;encode_video" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="295" width="190" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-7" value="组装视频模型请求&lt;br&gt;@时间轴 → reference_video&lt;br&gt;@图片 → reference_image&lt;br&gt;附加提示词文本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="285" width="220" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-8" value="视频生成模型&lt;br&gt;doubao-seedance-2.0-fast&lt;br&gt;一次提交整段视频生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="295" width="220" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-9" value="输出：二原结果视频&lt;br&gt;保存并回填 attempt" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1940" y="295" width="210" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-1" target="unMQUV8tgInIUgHWds3y-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-2" target="unMQUV8tgInIUgHWds3y-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-3" target="unMQUV8tgInIUgHWds3y-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-4" target="unMQUV8tgInIUgHWds3y-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-14" value="是：继续下一时间帧" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-5" target="unMQUV8tgInIUgHWds3y-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1015" y="190" />
-              <mxPoint x="750" y="190" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-15" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-5" target="unMQUV8tgInIUgHWds3y-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-6" target="unMQUV8tgInIUgHWds3y-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-7" target="unMQUV8tgInIUgHWds3y-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="unMQUV8tgInIUgHWds3y-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-8" target="unMQUV8tgInIUgHWds3y-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
