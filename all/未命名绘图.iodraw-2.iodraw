@@ -4,6 +4,51 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="unMQUV8tgInIUgHWds3y-32" value="一原 / 作监图片&lt;br&gt;按时间轴排列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-33" value="按时间轴逐帧处理&lt;br&gt;合成为参考视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="105" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-34" value="参考视频&lt;br&gt;reference_video" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="105" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-35" value="提示词&lt;br&gt;文本内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="280" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-36" value="提示词中 @ 引用的图片&lt;br&gt;例如人设 / 作监参考图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="455" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-37" value="发送给模型&lt;br&gt;提示词文本 + 参考视频 + @ 引用图片&lt;br&gt;不是逐帧分别发送生成结果" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="960" y="250" width="260" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-38" value="视频生成模型&lt;br&gt;doubao-seedance-2.0-fast" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="270" width="220" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-39" value="输出&lt;br&gt;二原结果视频" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="485" width="220" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-32" target="unMQUV8tgInIUgHWds3y-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-33" target="unMQUV8tgInIUgHWds3y-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-34" target="unMQUV8tgInIUgHWds3y-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-35" target="unMQUV8tgInIUgHWds3y-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-36" target="unMQUV8tgInIUgHWds3y-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-37" target="unMQUV8tgInIUgHWds3y-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unMQUV8tgInIUgHWds3y-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unMQUV8tgInIUgHWds3y-38" target="unMQUV8tgInIUgHWds3y-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
